@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C60B59A1260EAF19004AAA76 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60B59A1260EAF19004AAA76 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FlappyBird.app; path = "/Users/matsumotokouki/Documents/App/FlappyBird/build/Debug-iphoneos/FlappyBird.app"; sourceTree = "<absolute>"; };
 		C60B59A4260EAF19004AAA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C60B59A6260EAF19004AAA76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C60B59A8260EAF19004AAA76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				C60B59A3260EAF19004AAA76 /* FlappyBird */,
-				C60B59A2260EAF19004AAA76 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		C60B59A2260EAF19004AAA76 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C60B59A1260EAF19004AAA76 /* FlappyBird.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C60B59A3260EAF19004AAA76 /* FlappyBird */ = {
@@ -116,7 +107,7 @@
 				Base,
 			);
 			mainGroup = C60B5998260EAF19004AAA76;
-			productRefGroup = C60B59A2260EAF19004AAA76 /* Products */;
+			productRefGroup = C60B5998260EAF19004AAA76;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
