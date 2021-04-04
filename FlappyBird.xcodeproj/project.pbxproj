@@ -14,11 +14,9 @@
 		C60B59AE260EAF19004AAA76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60B59AD260EAF19004AAA76 /* Assets.xcassets */; };
 		C60B59B1260EAF19004AAA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60B59AF260EAF19004AAA76 /* LaunchScreen.storyboard */; };
 		C60B59BB260EB865004AAA76 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B59BA260EB865004AAA76 /* GameScene.swift */; };
-		C696DA922619DCA1005A80DE /* itemsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C696DA912619DCA1005A80DE /* itemsound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C60B59A1260EAF19004AAA76 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FlappyBird.app; path = "/Users/matsumotokouki/Documents/App/FlappyBird/build/Debug-iphoneos/FlappyBird.app"; sourceTree = "<absolute>"; };
 		C60B59A4260EAF19004AAA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C60B59A6260EAF19004AAA76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C60B59A8260EAF19004AAA76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +25,7 @@
 		C60B59B0260EAF19004AAA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C60B59B2260EAF19004AAA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60B59BA260EB865004AAA76 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C696DA912619DCA1005A80DE /* itemsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = itemsound.mp3; path = ../../../../Downloads/itemsound.mp3; sourceTree = "<group>"; };
+		C696DA992619E544005A80DE /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +43,13 @@
 			isa = PBXGroup;
 			children = (
 				C60B59A3260EAF19004AAA76 /* FlappyBird */,
+				C696DA992619E544005A80DE /* FlappyBird.app */,
 			);
 			sourceTree = "<group>";
 		};
 		C60B59A3260EAF19004AAA76 /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
-				C696DA912619DCA1005A80DE /* itemsound.mp3 */,
 				C60B59A4260EAF19004AAA76 /* AppDelegate.swift */,
 				C60B59A6260EAF19004AAA76 /* SceneDelegate.swift */,
 				C60B59A8260EAF19004AAA76 /* ViewController.swift */,
@@ -81,7 +79,7 @@
 			);
 			name = FlappyBird;
 			productName = FlappyBird;
-			productReference = C60B59A1260EAF19004AAA76 /* FlappyBird.app */;
+			productReference = C696DA992619E544005A80DE /* FlappyBird.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +122,6 @@
 				C60B59B1260EAF19004AAA76 /* LaunchScreen.storyboard in Resources */,
 				C60B59AE260EAF19004AAA76 /* Assets.xcassets in Resources */,
 				C60B59AC260EAF19004AAA76 /* Main.storyboard in Resources */,
-				C696DA922619DCA1005A80DE /* itemsound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

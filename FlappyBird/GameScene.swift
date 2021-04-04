@@ -6,6 +6,7 @@
 //
 
 import SpriteKit
+import AVFoundation
 
 class GameScene: SKScene,SKPhysicsContactDelegate {
     
@@ -21,8 +22,6 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
     let scoreCategory: UInt32 = 1 << 3
     let itemCategory: UInt32 = 1 << 4
     
-    //交換音
-    let itemSound = SKAction.playSoundFileNamed("itemsound.mp3", waitForCompletion: false)
     
     
     // スコア用
@@ -63,6 +62,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         setupBird()
         setupScoreLabel()
         setupItem()
+        
     }
     
     //画面をタップで呼ばれる
@@ -77,6 +77,14 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
             restart()
         }
     }
+    
+    //AVAudioPlayerを作成
+    let itemSound = try! AVAudioPlayer(data: NSDataAsset(name: "itemsound")!.data)
+    //再生するメソッド
+    func playSound(){
+        itemSound.play()
+    }
+    
     
     func setupGround() {
         // 地面の画像を読み込む
@@ -293,7 +301,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
             itemscore += 1
             itemScoreLabelNode.text = "Itemscore:\(itemscore)"
             contact.bodyA.node?.removeFromParent()
-            run(itemSound)
+            playSound()
             
         }else if (contact.bodyA.categoryBitMask & scoreCategory) == scoreCategory || (contact.bodyB.categoryBitMask & scoreCategory) == scoreCategory {
             // スコア用の物体と衝突した
